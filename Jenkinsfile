@@ -26,7 +26,7 @@ pipeline
             steps
             {
                 echo '--> executing gradle...'
-                sh './gradlew -v'
+                sh './gradle -v'
             }
         }
     }
